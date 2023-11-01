@@ -71,7 +71,7 @@ const Contact = () => {
                             <textarea name="" id="" cols="30" rows="10" className="rounded h-[8.25rem] pl-3 pt-3 placeholder:text-sm placeholder:text-[#D2D2D2] lg:h-44 resize-none" placeholder="Dejanos tu mensaje" onChange={(e) => { setMessage(e.target.value) }}></textarea>
                         </div>
                         {name !== "" && /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(mail) && message !== "" ? <div className="mx-2 lg:mt-6">
-                            <Link to={`mailto:email@example.com?subject=Nombre:%20${name}%20correo:${mail}&body=${message}`}>
+                            <Link to={`mailto:email@example.com?subject=Nombre:%20${name}%20correo:${mail}&body=${message}`} target="_blank">
                                 <button type="button" className="bg-primary-700 text-neutral-50 h-12 w-full rounded mt-2 lg:mt-5">Enviar</button>
                             </Link>
                         </div> : <div className="mx-2 lg:mt-6">
