@@ -27,6 +27,11 @@
         {
             "src": "/Contact",
             "dest": "/"
+        },
+        {
+            "src": "/(.*)",
+            "status": 404,
+            "dest": "/NotFound.jsx"
         }
     ],
     "rewrites": [
