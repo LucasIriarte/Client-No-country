@@ -1,0 +1,32 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/login",
+            "dest": "/"
+        },
+        {
+            "src": "/register",
+            "dest": "/"
+        },
+        {
+            "src": "/AboutUs",
+            "dest": "/"
+        },
+        {
+            "src": "/store",
+            "dest": "/"
+        },
+        {
+            "src": "/Faq",
+            "dest": "/"
+        },
+        {
+            "src": "/Contact",
+            "dest": "/"
+        }
+    ]
+}
