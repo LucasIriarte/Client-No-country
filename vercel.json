@@ -28,5 +28,11 @@
             "src": "/Contact",
             "dest": "/"
         }
-    ]
+    ],
+    "rewrites": [
+        {
+          "source": "/(.*)",
+          "destination": "/404.jsx"
+        }
+      ]
 }
