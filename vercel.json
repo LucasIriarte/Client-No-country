@@ -31,8 +31,8 @@
     ],
     "rewrites": [
         {
-          "source": "/(.*)",
-          "destination": "/404.jsx"
+            "source": "/(.*)",
+            "destination": "/NotFound.jsx"
         }
-      ]
+    ]
 }
